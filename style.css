@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 100px;
+    width: 40%;
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 0px ;
+}
+.contentone{
+    background: hsl(252, 67%, 45%);
+    width: 50%;
+    height: 60vh;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.contents h1{
+    color: white;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+.circle{
+    width: 50%;
+    height: 20vh;
+    border-radius: 50%;
+    position: relative;
+    left: 25%;
+    top: 20%;
+    background: linear-gradient(to bottom right, hsl(252, 100%, 67%) ,hsla(256, 72%, 46%, 1));
+}
+.textincircle{
+    margin-left: 52px;
+    margin-top: 36px;
+    position: absolute; 
+}
+.textincircle span{
+   font-size: 35px;
+    color: white;
+    font-weight: bolder;
+    margin-left: -5px;
+    font-family: monospace;
+}
+.textincircle p{
+    font-size: 12px;
+    color: white;
+    opacity: 0.5;
+}
+.bottomtext h1{
+    color: white;
+    font-weight: 600px;
+    margin-left: 10px;
+}
+.bottomtext{
+    color: white;
+    margin-top: 125px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 105px;
+}
+.textfinal{
+    margin-top: 12px;
+}
+.textfinal p{
+    line-height: 15px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size:10px ;
+    opacity: 0.7;
+    margin-left: -100px;
+    text-align: center;
+}
+.contenttwo{
+    width: 50%;
+    height: 60vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.header{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.reactionclass{
+    margin-left: 25px;
+}
+.reactionone{
+    display: flex;
+    margin-top: 30px;
+    width: 170px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color:hsl(0, 26%, 87%);
+}
+.reactionone img{
+    width: 15px;
+    margin-left: 5px;
+}
+.reactionone p{
+    color: hsl(0, 100%, 67%);
+    margin-top: 3px;
+}
+.reactiontwo{
+    display: flex;
+    margin-top: 30px;
+    width: 170px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: hsl(39, 64%, 89%);
+}
+.reactiontwo img{
+    width: 15px;
+    margin-left: 5px;
+}
+.reactiontwo p{
+    margin-top: 3px;
+    color: hsl(39, 100%, 56%);
+}
+.reactionthree{
+    display: flex;
+    margin-top: 30px;
+    width: 170px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: hsl(167, 53%, 90%);
+}
+.reactionthree img{
+    width: 15px;
+    margin-left: 5px;
+}
+.reactionthree p{
+    margin-top: 3px;
+    color: hsl(166, 100%, 37%);
+}
+.reactionfour{
+    display: flex;
+    margin-top: 30px;
+    width: 170px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: hsl(234, 39%, 90%);
+}
+.reactionfour img{
+    width: 15px;
+    margin-left: 5px;
+}
+.reactionfour p{
+    margin-top: 3px;
+    font-weight: 500;
+    color: hsl(234, 85%, 45%);
+}
+
+.reactiontxt{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.reactiontxt p{
+    font-size: 11px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.score{
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.score p{
+    color: black;
+    font-size: 11px;
+    font-weight: bolder;
+   
+}
+.scoreone{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.scoreone p{
+    color: black;
+    font-size: 11px;
+    font-weight: bolder;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+button{
+    padding: 5px;
+    width: 175px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(86, 78, 104);
+}
+button p{
+    font-size: 15px;
+    color: white;
+    font-family: monospace;
+}
+button:hover{
+    background-color:hsl(252, 65%, 45%);
+    cursor: pointer;
+}
+
+@media only screen and (max-width:375px) {
+       .content{
+        display: block;
+        width: 40vh;
+        margin-left: -1px;
+        margin-top: -200px;
+        box-shadow: none;
+       }
+       .contentone{
+        width:101vw;
+        height: 77vh;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+       }
+       .contents h1{
+        margin-top: 215px;
+        margin-left: 140px;
+        font-size: 13px;
+       }
+       .circle{
+        width: 33%;
+        height: 20vh;
+        left: 33%;
+        top: 55%;
+       }
+       .textincircle{
+        margin-left: 75px;
+        margin-top: 25px;
+        position: absolute; 
+    }
+       .textincircle span{
+        margin-left: -33px;
+       }
+       .textincircle p{
+        margin-left: -27px;
+        letter-spacing: none;
+       }
+       .bottomtext{
+        margin-top: 258px;
+        margin-left: 180px;
+       }
+       .bottomtext h1{
+        margin-left: -10px;
+        font-size: 15px;
+       }
+       .textfinal{
+        margin-right: -8px;
+       }
+       .textfinal p{
+        font-size: 10px;
+        width: 220px; 
+        height: 13px;
+        word-spacing: 3px;
+        line-height: 1px;
+        
+       }
+       .contenttwo{
+        height: 30vh;
+        width: 40%;
+        border-top-right-radius: none;
+        border-bottom-right-radius: none;
+
+       }
+       .header{
+        margin-top: 15px;
+        margin-left: 20px;
+       }
+       .header h1{
+        font-size:15px; 
+       }
+       .reactionclass{
+        margin-top: -15px;
+        margin-left: 32px;
+       }
+       .reactionone{
+        width: 300px;
+        height: 35px;
+       }
+       .reactionone img{
+        width: 18px;
+        margin-left: 5px;
+    }
+        .reactionone p{
+        color: hsl(0, 100%, 67%);
+        margin-top: 7px;
+        font-size: 10px;
+    }
+       .reactiontwo{
+        width: 300px;
+        height: 35px;
+       }
+       .reactiontwo img{
+        width: 18px;
+        margin-left: 5px;
+    }
+        .reactiontwo p{
+        color: hsl(39, 100%, 56%);
+        margin-top: 7px;
+        font-size: 10px;
+    }
+       .reactionthree{
+        width: 300px;
+        height: 35px;
+       }
+       .reactionthree img{
+        width: 18px;
+        margin-left: 5px;
+    }
+        .reactionthree p{
+        color: hsl(166, 100%, 37%);
+        margin-top: 7px;
+        font-size: 10px;
+    }
+       .reactionfour{
+        width: 300px;
+        height: 35px;
+        background-color: hsl(235, 85%, 92%);
+       }
+       .reactionfour img{
+        width: 18px;
+        margin-left: 5px;
+    }
+        .reactionfour p{
+        color: hsl(234, 85%, 45%);
+        margin-top: 7px;
+        font-size: 10px;
+    }
+    .score p{
+        color: black;
+        margin-left: 120px;
+    }
+    .scoreone p{
+        color: black;
+        margin-left: 120px;
+    }  
+    .btn{
+        width: 300px;
+        justify-content: none;
+        margin-left: 40px;
+        margin-top: 12px;
+    }   
+    button{
+        width: 300px;
+    }
+}
